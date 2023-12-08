@@ -269,6 +269,10 @@ Images Size
   height: 100%;
 }
 
+.floor-img img {
+  border: 1px solid var(--colorPrimary) !important;
+}
+
 /* Configuration */
 
 .config-inner {
@@ -282,7 +286,7 @@ Images Size
   border-radius: 30px 0px 30px 0px;
 }
 .config-price {
-  background: var(--colorPrimary);
+  background: var(--colorSecondary);
   width: 75%;
   margin: 15px auto;
   padding: 8px;
@@ -728,4 +732,11 @@ Images Size
   position: relative;
   z-index: 2;
   padding-left: 5px;
+}
+
+.gal-img {
+  border-radius: 50px 0;
+}
+.gal-img img {
+  border-radius: 40px 0;
 }
